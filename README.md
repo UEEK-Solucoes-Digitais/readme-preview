@@ -7,10 +7,15 @@ Siga os passos descritos abaixo para rodar a aplicação.
 Primeiramente, é necessário criar seu banco de dados local e alterar sua conexão no arquivo .env, localizado na raíz do projeto:
 
 DB_CONNECTION=mysql
+
 DB_HOST=127.0.0.1
+
 DB_PORT=3306
+
 DB_DATABASE=[insira aqui o banco de dados do projeto]
+
 DB_USERNAME=root
+
 DB_PASSWORD=root
 
 Após isso, altere os nomes da aplicação nas variáveis APP_NAME e APP_CACHE_NAME, também localizadas no .env.
